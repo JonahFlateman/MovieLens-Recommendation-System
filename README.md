@@ -17,13 +17,13 @@ In this project we wil be making recommendations based on the MovieLens dataset,
 
 ### What trends do we notice in our dataset?
 
-![User ratings](images/user ratings.png)
-![Genre ratings](images/genre ratings.png)
+![User ratings](images/userratings.png)
+![Genre ratings](images/genreratings.png)
 
 ### How accurate is our ALS model?
 
-![Test predictions](images/test predictions.png)
+![Test predictions](images/testpredictions.png)
 
 ### What does the user input process look like?
 
-![User interface](images/user interface.png)
+![User interface](images/userinterface.png)
