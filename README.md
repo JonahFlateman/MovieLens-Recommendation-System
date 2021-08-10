@@ -1,13 +1,16 @@
-# Phase 1 Project Templates and Examples
+# Module 4 Final Project readme
 
-This repo contains templates and examples to help you get started with your Phase 1 Project. Each of these is in a separate branch as explained below.
+In this project we wil be making recommendations based on the MovieLens dataset, a collection of user ratings for movies from the GroupLens research lab at the University of Minnesota. We will build a model to provide the top movie recommendations to a user, based off of their ratings of other movies.
 
-- The **template-mvp** branch is the template you should use to for your Phase 1 Project. MVP stands for Minimum Viable Product, but this isn't meant in a negative way - if your project uses this template, it will be functional and accessible.
+## Goals
 
-- The **example-mvp** branch is an example project using the MVP template.
+* Interpret our data and prepare best possible modeling framework
+* Understand business problems at hand, using recommendations for customer insights
+* Iterate through several models and use Root Mean Square Error (RMSE) as key metric
 
-Once you've completed your project using the MVP template, you can improve it using the Above and Beyond (AAB) template if you have time:
+## Methodologies
 
-- The **template-aab** branch is the AAB template to use to keep improving your project.
-
-- The **example-aab** branch is an example project using the AAB template.
+* Use collaborative filtering methods to create baseline methods using tools via Surprise algorithms
+* Find best parameters using GridSearchCV, apply to SVD modeling and compare with KNN models
+* Use matrix factorization with Alternating Least Squares via PySpark, cross validate and determine best parameters
+* Build user input function to rate movies, and test using best applicable model
