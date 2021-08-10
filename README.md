@@ -20,10 +20,16 @@ In this project we wil be making recommendations based on the MovieLens dataset,
 ![User ratings](images/userratings.png)
 ![Genre ratings](images/genreratings.png)
 
-### How accurate is our ALS model?
+Most ratings fall in the 3 - 5 range, genres stay relatively consistant with some slight outliers.
+
+### How accurate is our final ALS model?
 
 ![Test predictions](images/testpredictions.png)
+
+Our RMSE on an untuned model started at 0.9958; after adjustments this was brought down to 0.8649.  Earlier modeling with Surprise produced a best RMSE of 0.8691 using SVD.
 
 ### What does the user input process look like?
 
 ![User interface](images/userinterface.png)
+
+Our function takes in User ID, movie and title DataFrames, and number of desired inputs and recommendations (in this case, five and 10 respectively).
