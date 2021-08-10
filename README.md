@@ -14,3 +14,16 @@ In this project we wil be making recommendations based on the MovieLens dataset,
 * Find best parameters using GridSearchCV, apply to SVD modeling and compare with KNN models
 * Use matrix factorization with Alternating Least Squares via PySpark, cross validate and determine best parameters
 * Build user input function to rate movies, and test using best applicable model
+
+### What trends do we notice in our dataset?
+
+![User ratings](images/user ratings.png)
+![Genre ratings](images/genre ratings.png)
+
+### How accurate is our ALS model?
+
+![Test predictions](images/test predictions.png)
+
+### What does the user input process look like?
+
+![User interface](images/user interface.png)
