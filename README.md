@@ -1,4 +1,4 @@
-# Module 4 Final Project readme
+# MovieLens Recommendation System
 
 In this project we wil be making recommendations based on the MovieLens dataset, a collection of user ratings for movies from the GroupLens research lab at the University of Minnesota. We will build a model to provide the top movie recommendations to a user, based off of their ratings of other movies.
 
